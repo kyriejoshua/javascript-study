@@ -1,0 +1,2 @@
+# javascript-study
+just javascript
