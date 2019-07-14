@@ -10,3 +10,8 @@
 ### Others
 
 * `.git/hooks/pre-commit` 配置提交规范。
+
+### TODO
+
+* 所见所得的文本解析器，本地启动服务查看效果。
+* https://github.com/umpox/TinyEditor
