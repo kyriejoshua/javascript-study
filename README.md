@@ -10,6 +10,7 @@
 ### Others
 
 * `.git/hooks/pre-commit` 配置提交规范。
+* eslint@4.x 版本下生效。同时依赖 babel-eslint
 
 ### TODO
 
