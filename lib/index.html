@@ -1,0 +1,37 @@
+<!--
+ * @Author: changri
+ * @Description: 即时预览的在线页面编辑器
+ * 参考：https://github.com/umpox/TinyEditor
+ * @Date: 2020-11-24 17:36:28
+ * @LastEditors: changri
+ * @LastEditTime: 2020-11-24 17:48:11
+-->
+<!-- <!DOCTYPE html> 要注释掉才能生效不知道为何 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    textarea, iframe {
+      width: 100%;
+      height: 50%;
+    }
+    body {
+      margin: 0;
+    }
+    textarea {
+      width: 33%;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body
+  oninput = "i.srcdoc=h.value + '<style>' + c.value + '</style>' + '<script>' + j.value + '</script>'";
+>
+  <textarea id="h" placeholder="HTML"></textarea>
+  <textarea id="c" placeholder="CSS"></textarea>
+  <textarea id="j" placeholder="JavaScript"></textarea>
+  <iframe id="i"></iframe>
+</body>
+</html>
